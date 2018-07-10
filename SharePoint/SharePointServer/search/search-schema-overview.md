@@ -83,7 +83,7 @@ The search index consists of a set of files in folders on a server. The content 
 
 Whenever an item changes, it must be re-indexed after it has been crawled again. To reduce the re-indexing load, SharePoint Server introduces several separate index update groups.
   
-- **Default** Contains he majority of managed properties. This index update group contains all managed properties that do not belong to the Security, Link, Usage or People index update groups. 
+- **Default** Contains the majority of managed properties. This index update group contains all managed properties that do not belong to the Security, Link, Usage or People index update groups. 
     
 - **Security** Contains the document Access Control List (ACL) managed property 
     
